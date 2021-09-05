@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cotización</title>
+	<link rel="stylesheet" href="cotizar.css">
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="title">
+      Cotización
+    </div>
+    <form class="form" id="form" action="https://formspree.io/f/xeqvvlbw" method="POST">
+       <div class="inputfield">
+          <label>Nombre</label>
+          <input type="text" name="Nombre" class="input">
+       </div>  
+       <div class="inputfield">
+          <label>Correo o Gmail</label>
+          <input type="email" name="correo" class="input">
+       </div>  
+      <div class="inputfield">
+          <label>Rubro de tu empresa</label>
+          <input type="text" name="Rubro-empresarial" class="input">
+       </div> 
+       <div class="inputfield">
+          <label>Tipo de pagina web</label>
+          <input type="text" name="tipo-pagina" class="input">
+       </div>
+        <div class="inputfield">
+          <label>Nº paginas que tendra su sitio</label>
+          <input class="custom_select input"  type="text" list="list-numeros" name="nº_paginas">
+            <datalist id="list-numeros">
+              <option value="1">
+              <option value="2-4">
+              <option value="5-7">
+              <option value="8-10">
+              <option value="más">
+            </datalist>
+        </div>
+        <div class="inputfield">
+          <label>Presupuesto estimado</label>
+          <input type="number" name="Presupuesto" class="input">
+       </div> 
+
+      <div class="inputfield">
+          <label>En que más podemos ayudarte</label>
+          <textarea class="textarea" ></textarea>
+       </div> 
+ 
+      <div class="inputfield">
+        <input type="submit" value="Enviar ahora" class="btn">
+      </div>
+    </form>
+</div>	
+<script type="text/javascript" src="script.js"></script>
+	
+</body>
+</html>
