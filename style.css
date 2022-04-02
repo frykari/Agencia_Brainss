@@ -195,7 +195,8 @@ h3{
 .div-p__encabezado-principal{
     color: var(--color-letter-second);
     text-align: center;
-    text-size: 2.5rem;
+    text-size: 3rem;
+    font-weight: 700;
 }
 @media screen and (min-width:860px){
     .div-p__encabezado-principal{
@@ -231,6 +232,7 @@ h3{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-size: 1.5rem;
 }
 @media screen and (min-width:860px){
     .div-div__cuerpo-mensaje{
