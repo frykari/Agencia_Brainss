@@ -195,6 +195,7 @@ h3{
 .div-p__encabezado-principal{
     color: var(--color-letter-second);
     text-align: center;
+    text-size: 2.5rem;
 }
 @media screen and (min-width:860px){
     .div-p__encabezado-principal{
